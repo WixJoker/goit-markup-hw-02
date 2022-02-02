@@ -2,19 +2,27 @@
 font-family: 'Roboto', sans-serif; */
 body {
   font-family: 'Roboto';
+  background-color: #FFFFFF;
 }
 :root {
     --brand-color: #2F303A;
 }
-.logo-text {
+.header-logo-text {
     font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
-}
-.studio-word {
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: #000000;
+}
+.footer-logo-text {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.web-word {
+    color: #2196F3;
 }
 .link {
     font-weight: 500;
@@ -51,7 +59,37 @@ footer {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.button {
+.hero-button {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #2196F3;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #757575;
+}
+.our-team-title {
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.our-team-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.portfolio-button {
     cursor: pointer;
     background-color: #F5F4FA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -64,6 +102,10 @@ footer {
     text-align: center;
     letter-spacing: 0.06em;
     color: #212121;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+    background-color: #2196F3;
 }
 .portfolio-title {
     font-weight: bold;
@@ -85,7 +127,7 @@ footer {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    colrgb(253, 156, 156)2121;
+    color: rgb(253, 156, 156);
 }
 .properties-text {
     font-weight: normal;
@@ -111,6 +153,9 @@ color: rgba(255, 255, 255, 0.6);
 a:hover,
 a:focus {
     color: #2196F3;
+}
+a {
+    text-decoration: none;
 }
 ul {
     list-style: none;

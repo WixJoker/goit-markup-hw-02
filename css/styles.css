@@ -16,25 +16,13 @@ color: #2196F3;
 .studio-word {
     color: #000000;
 }
-.blue-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-}
-.black-link {
+.link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
 }
-.black-link:hover,
-.black-link:focus,
-.blue-link:hover,
-.blue-link:focus {
-    color: #FF0000;
 }
 .email-header {
     font-weight: 500;
@@ -50,12 +38,6 @@ color: #2196F3;
     letter-spacing: 0.02em;
     color: #757575;
     }
-.tel-header:hover,
-.tel-header:focus,
-.email-header:hover,
-.email-header:focus {
-    color: #FF0000;
-}
 .hero,
 footer {
     background-color: #2F303A;
@@ -71,7 +53,7 @@ footer {
 }
 .button {
     cursor: pointer;
-    background: #2196F3;
+    background-color: #F5F4FA;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: bold;
@@ -81,23 +63,23 @@ footer {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: #212121;
 }
-.portfolio-options h3 {
+.portfolio-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
     color: #212121;
 }
-.portfolio-options p {
+.portfolio-text {
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: #757575;
 }
-.properties h3 {
+.properties-title {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
@@ -105,7 +87,7 @@ footer {
     text-transform: uppercase;
     colrgb(253, 156, 156)2121;
 }
-.properties p {
+.properties-text {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
@@ -126,15 +108,10 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 }
-.address:hover {
-    color: #FF0000;
+a:hover,
+a:focus {
+    color: #2196F3;
 }
-.address:focus {
-    color: #FF0000;
-}
-.contacts-footer:hover {
-    color: #FF0000;
-}
-.contacts-footer:focus {
-    color: #FF0000;
+ul {
+    list-style: none;
 }

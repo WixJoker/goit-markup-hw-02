@@ -4,7 +4,11 @@ font-family: 'Roboto', sans-serif; */
   --primary-text-color: #757575;
   --title-color: #212121;
   --accent-color: #2196f3;
+  --secondary-accent-color: #188ce8;
   --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --button-background-color: #f5f4fa;
+  --logo-color: #000000;
 }
 body {
   font-family: 'Roboto';
@@ -17,7 +21,7 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--logo-color);
 }
 .web-word {
   color: var(--accent-color);
@@ -39,7 +43,7 @@ body {
 /* Hero section */
 .hero,
 footer {
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);
 }
 .hero-header {
   font-weight: 900;
@@ -64,7 +68,7 @@ footer {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #188ce8;
+  background-color: var(--secondary-accent-color);
 }
 /* Section properties */
 .properties-title {
@@ -114,7 +118,7 @@ footer {
 /* Section portfolio */
 .portfolio-button {
   cursor: pointer;
-  background-color: #f5f4fa;
+  background-color: var(--button-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: bold;

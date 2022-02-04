@@ -8,21 +8,24 @@ font-family: 'Roboto', sans-serif; */
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
   --button-background-color: #f5f4fa;
+  --section-background-color: #f5f4fa;
   --logo-color: #000000;
   --logo-font-family: Raleway, sans-serif;
+  --secondary-letter-spacing: 0.06em;
 }
 body {
   font-family: Roboto, sans-serif;
-  background-color: #ffffff;
+  letter-spacing: 0.03em;
+  background-color: var(--primary-background-color);
   color: #757575;
 }
 /* Header */
 .header-logo-text {
   font-family: var(--logo-font-family);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--logo-color);
 }
 .web-word {
@@ -35,7 +38,8 @@ a:hover,
 a:focus {
   color: var(--accent-color);
 }
-.header-link {
+.header-link,
+.header-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,10 +47,6 @@ a:focus {
   color: var(--title-color);
 }
 .header-contacts {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   color: inherit;
 }
 /* Hero section */
@@ -54,25 +54,26 @@ a:focus {
 footer {
   background-color: var(--secondary-background-color);
 }
-.hero-header {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   text-transform: uppercase;
   color: var(--primary-background-color);
 }
 .hero-button {
   cursor: pointer;
-  font-weight: bold;
+  font-family: inherit
+  font-weight: 700;
   background-color: var(--accent-color);
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--primary-background-color);
 }
 .hero-button:hover,
@@ -81,43 +82,48 @@ footer {
 }
 /* Section properties */
 .properties-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   text-transform: uppercase;
   color: var(--title-color);
 }
 .properties-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: inherit;
 }
 /* Activities section */
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--title-color);
 }
-.our-team-title {
+.section.our-team {
+  background: var(--section-background-color);
+}
+.image-description {
+  background-color: var(--primary-background-color);
+  width: 270px;
+  height: 108px;
+}
+.our-team-title,
+.our-team-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--title-color);
 }
 .our-team-text {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-weight: 400;
   color: inherit;
 }
 .properties p {
@@ -130,13 +136,14 @@ footer {
   background-color: var(--button-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: bold;
+  font-family: inherit
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--title-color);
 }
 .portfolio-button:hover,
@@ -144,40 +151,37 @@ footer {
   background-color: var(--accent-color);
 }
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: var(--secondary-letter-spacing);
   color: var(--title-color);
 }
 .portfolio-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: inherit;
 }
 /* Footer */
 .footer-logo-text {
   font-family: var(--logo-font-family);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--primary-background-color);
 }
-.footer-address {
-  font-weight: normal;
+.footer-address,
+.footer-contacts {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: inherit;
   color: var(--primary-background-color);
 }
 .footer-contacts {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 a {

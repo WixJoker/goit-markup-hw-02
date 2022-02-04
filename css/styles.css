@@ -9,17 +9,19 @@ font-family: 'Roboto', sans-serif; */
   --secondary-background-color: #2f303a;
   --button-background-color: #f5f4fa;
   --logo-color: #000000;
+  --logo-font-family: Raleway, sans-serif;
 }
 body {
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   background-color: #ffffff;
   color: #757575;
 }
 /* Header */
 .header-logo-text {
+  font-family: var(--logo-font-family);
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--logo-color);
 }
@@ -36,14 +38,14 @@ a:focus {
 .header-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: inherit;
 }
@@ -55,7 +57,7 @@ footer {
 .hero-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -66,7 +68,7 @@ footer {
   font-weight: bold;
   background-color: var(--accent-color);
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -81,7 +83,7 @@ footer {
 .properties-title {
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
@@ -89,7 +91,7 @@ footer {
 .properties-text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: inherit;
 }
@@ -97,7 +99,7 @@ footer {
 .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
@@ -105,7 +107,7 @@ footer {
 .our-team-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
@@ -113,7 +115,7 @@ footer {
 .our-team-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: inherit;
@@ -130,7 +132,7 @@ footer {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -144,36 +146,37 @@ footer {
 .portfolio-title {
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
 }
 .portfolio-text {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: inherit;
 }
 /* Footer */
 .footer-logo-text {
+  font-family: var(--logo-font-family);
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-background-color);
 }
 .footer-address {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-background-color);
 }
 .footer-contacts {
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }

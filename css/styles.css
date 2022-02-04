@@ -15,15 +15,6 @@ body {
   background-color: #ffffff;
   color: #757575;
 }
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
-a:hover,
-a:focus {
-  color: var(--accent-color);
 /* Header */
 .header-logo-text {
   font-weight: bold;
@@ -185,6 +176,16 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+a:hover,
+a:focus {
+  color: var(--accent-color);
 }
 .footer-contacts,
 .footer-address {
